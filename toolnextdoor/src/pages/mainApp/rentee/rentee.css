@@ -1,0 +1,22 @@
+.fake-ava {
+  width: 128px;
+  height: 128px;
+}
+.rentee-container {
+  margin-top: 20px;
+}
+.ele-cont {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.cont-left {
+  float: left;
+}
+.title {
+  font-weight: bold;
+  font-size: 16pt;
+}
+.ele-text {
+  margin-right: 200px;
+}

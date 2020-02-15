@@ -1,7 +1,7 @@
 import React from "react";
 import "./login.css";
 import { Link } from "react-router-dom";
-export default function LoginPage() {
+export default function LoginPage(props) {
   return (
     <div className="form-container">
       <div className="form-group form-head">
@@ -26,7 +26,7 @@ export default function LoginPage() {
         />
       </div>
       <p>Create an account</p>
-      <Link to="/app">
+      <Link to="/app" onClick={() => props.dispatch({ type: "LOGIN" })}>
         <button type="submit" class="btn btn-primary">
           Login
         </button>
