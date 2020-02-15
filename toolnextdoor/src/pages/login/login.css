@@ -1,0 +1,16 @@
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 75px;
+}
+.form-group {
+  text-align: left;
+}
+.big-text {
+  font-size: 30pt;
+  color: black;
+}
+.form-head {
+  text-align: center;
+}
