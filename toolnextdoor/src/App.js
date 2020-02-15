@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router className="App">
+    <Router>
       <Header />
       <Switch>
         <Route path="/app">
